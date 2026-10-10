@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Custom Song | Personalised songs written by Nicky Stixx</title>
+<meta name="description" content="Personalised, custom songs written about the people you love, by lyricist and former band leader Nicky Stixx. Delivered by email within 14 days.">
+<link rel="canonical" href="https://customsong.store/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://customsong.store/">
+<meta property="og:title" content="Songs written about the people you love">
+<meta property="og:description" content="Personalised, custom songs by Nicky Stixx. Tell me their story and I'll turn it into a song, delivered by email within 14 days.">
+<meta property="og:image" content="https://customsong.store/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Songs written about the people you love, by Nicky Stixx">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://customsong.store/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,700;1,7..72,400&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f2f5f7;--rule:#cddbe8;--ink:#17233f;--margin:#e0526b;--hi:#ffe14d;--white:#fff}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font:400 18px/32px 'Literata',Georgia,serif;color:var(--ink);background:var(--paper) repeating-linear-gradient(transparent 0 31px,var(--rule) 31px 32px);overflow-x:hidden;position:relative}
+body::before{content:"";position:absolute;top:0;bottom:0;left:78px;width:2px;background:var(--margin);opacity:.55}
+.wrap{max-width:1020px;margin:0 auto;padding:0 24px 0 110px}
+section{padding:64px 0}
+h1,h2,h3,.hand{font-family:'Caveat',cursive;font-weight:700;line-height:1}
+h2{font-size:clamp(2.6rem,6vw,3.8rem);margin-bottom:20px}
+h3{font-size:1.9rem;margin-bottom:6px}
+p+p{margin-top:32px}
+.btn{display:inline-block;background:var(--ink);color:var(--paper);font:700 1.05rem 'Literata',serif;padding:12px 26px;border-radius:4px;text-decoration:none;border:0;cursor:pointer;box-shadow:4px 4px 0 var(--hi);transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--hi)}
+.btn.alt{background:none;color:var(--ink);border:2px solid var(--ink);box-shadow:none}
+a{color:var(--ink)}
+:focus-visible{outline:3px solid var(--margin);outline-offset:3px}
+
+/* hero */
+.hero{padding:56px 0 0}
+.hero .wrap{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(3.4rem,9vw,6.6rem);line-height:.95;margin-bottom:26px}
+.hero p{max-width:34ch;margin-bottom:28px}
+.hero .btns{display:flex;gap:14px;flex-wrap:wrap}
+.photo{position:relative;justify-self:center;transform:rotate(3deg);width:200px}
+.photo img{display:block;width:100%;height:auto;box-shadow:0 14px 34px rgba(23,35,63,.3)}
+.photo::before{content:"";position:absolute;top:-14px;left:50%;width:96px;height:28px;margin-left:-48px;background:rgba(255,225,77,.75);transform:rotate(-4deg);z-index:1}
+.photo figcaption{font:700 1.7rem/40px 'Caveat',cursive;text-align:center;margin-top:8px}
+.note{position:absolute;left:-150px;top:46%;width:140px;text-align:right;font:700 1.7rem/1.1 'Caveat',cursive;color:var(--margin);transform:rotate(-8deg)}
+#wave{display:block;width:100%;height:150px;margin-top:20px}
+@media(max-width:760px){
+ body::before{left:22px}.wrap{padding:0 18px 0 42px}
+ .hero .wrap{grid-template-columns:1fr}.photo{width:170px;justify-self:start;margin:14px 0 40px 6px}.note{left:182px;top:40%;width:130px;text-align:left;font-size:1.5rem}
+ .row{grid-template-columns:1fr!important}
+}
+
+/* about */
+.about{padding-top:40px}
+.about p{max-width:58ch}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0 36px}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
+.steps .n{font:700 4.4rem/1 'Caveat',cursive;color:var(--margin)}
+
+/* demos */
+.vids{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr));gap:34px;margin-top:10px}
+.vid .frame{aspect-ratio:16/9;background:var(--ink);color:var(--paper);display:grid;place-items:center;text-align:center;padding:14px;font-size:.95rem;box-shadow:6px 6px 0 var(--rule)}
+.vid iframe{width:100%;height:100%;border:0}
+.vid .frame:has(iframe){display:block;padding:0}
+.vid h3{margin-top:14px}
+.vid p{font-size:.95rem;line-height:24px}
+.yt{margin-top:34px}
+
+/* form */
+.sheet{background:var(--white);padding:clamp(22px,4vw,46px);box-shadow:0 18px 44px rgba(23,35,63,.18);border-left:3px solid var(--margin)}
+.sheet .lead{margin-bottom:10px}
+label{display:block;font-weight:700;margin-top:18px;line-height:24px}
+label small{display:block;font-weight:400;font-style:italic;opacity:.75}
+input,select,textarea{width:100%;font:inherit;line-height:26px;padding:8px 2px;border:0;border-bottom:2px solid var(--rule);background:transparent;color:var(--ink);border-radius:0}
+input:focus,select:focus,textarea:focus{outline:none;border-bottom-color:var(--ink);background:rgba(255,225,77,.18)}
+textarea{min-height:100px;resize:vertical;border:2px solid var(--rule);padding:10px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
+.row>div{min-width:0}
+input[type=date]{min-width:0;-webkit-appearance:none;appearance:none;min-height:42px}
+.hp{position:absolute;left:-9999px}
+#msg{margin-top:14px;font-weight:700}#msg.err{color:#b3123a}
+#pay{display:none}
+.price{font:700 4.4rem/1 'Caveat',cursive;margin:12px 0 4px}
+footer{padding:20px 0 60px}
+footer .wrap{font-size:.9rem}
+.chk{display:flex;gap:12px;align-items:flex-start;margin-top:26px;font-weight:400;line-height:26px}
+.chk input{width:22px;height:22px;margin-top:2px;flex:none;accent-color:var(--ink)}
+.legal{margin-top:26px}
+.legal details{margin-top:6px}
+.legal summary{font:700 1.6rem/32px 'Caveat',cursive;cursor:pointer}
+.legal .txt{font-size:.9rem;line-height:24px;max-width:64ch;padding:6px 0 10px}
+.legal .txt p+p{margin-top:12px}
+/* lyric scraps + doodles */
+.dood{display:inline-block;vertical-align:middle;margin-left:12px;width:42px;height:42px;overflow:visible;fill:none;stroke:var(--ink);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.scrap{font:700 1.9rem/1.1 'Caveat',cursive;transform:rotate(-2deg);margin-top:40px;max-width:24ch}
+.scrap small{display:block;font:italic 400 .85rem/20px 'Literata',serif;opacity:.7;margin-top:6px}
+.couplet{padding:30px 0}
+.verse{font:700 clamp(2.6rem,7vw,5rem)/1.02 'Caveat',cursive;transform:rotate(-1.5deg);max-width:14em}
+.src{font-style:italic;font-size:.9rem;opacity:.7}
+.doodle{font:700 3rem/1 'Caveat',cursive;color:var(--margin);display:inline-block;transform:rotate(12deg);margin-left:14px;vertical-align:top}
+.circ{position:relative;display:inline-block;white-space:nowrap}
+.circ svg,.sq svg{position:absolute;fill:none;stroke:var(--margin);stroke-linecap:round;overflow:visible}
+.circ svg{left:-8px;top:-5px;width:calc(100% + 16px);height:calc(100% + 10px);stroke-width:2}
+.sq{position:relative;display:inline-block}
+.sq svg{left:0;bottom:-10px;width:100%;height:12px;stroke-width:2.5}
+.circ path,.sq path{vector-effect:non-scaling-stroke}
+.lyric{font:700 1.45rem/32px 'Caveat',cursive;border-left:4px solid var(--hi);padding-left:14px;margin-top:16px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Songs written about the people you love.</h1>
+      <p>Tell me their story. I'll turn it into a song that's theirs alone, and email it to you within <span class="circ">14 days<svg viewBox="0 0 100 40" preserveAspectRatio="none" aria-hidden="true"><path d="M6 22 C4 6 40 1 70 4 C98 7 100 30 70 36 C40 41 3 38 6 20"/></svg></span>.</p>
+      <div class="btns">
+        <a class="btn" href="#order">Order your song, €150</a>
+        <a class="btn alt" href="#demos">Hear my songs</a>
+      </div>
+      <p class="scrap">“while the rest of us were dreaming, he was out amongst the stars”<small>from Barrie the Milkman</small></p>
+    </div>
+    <figure class="photo">
+      <picture><source media="(max-width:760px)" srcset="nicky-mobile.jpg" width="420" height="519"><img src="nicky.jpg" alt="Nicky Stixx, songwriter, in a photo-booth strip" width="420" height="1005"></picture>
+      <figcaption>Nicky Stixx</figcaption>
+      <span class="note" aria-hidden="true">hi, I'm your writer!</span>
+    </figure>
+  </div>
+  <canvas id="wave" aria-hidden="true"></canvas>
+</header>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <h2>Why I write songs<span class="doodle" aria-hidden="true">♪</span></h2>
+    <p>I've been writing lyrics and poetry since my high school years. I went on to lead and perform in original bands, including Indica, Indiskies and Myriad Blue.</p>
+    <p>In 2013 a problem with my voice box meant hanging up the microphone. Recently I came back to writing, and it felt right to use those years of songwriting to make songs for other people: the ones that say what you've always wanted to say.</p>
+  </div>
+</section>
+
+<section class="couplet" aria-label="Lyrics from one of my songs">
+  <div class="wrap">
+    <p class="verse">wishing you were here with me,<br>wishing I was there,<br>laying on the floor<br>with my head in my hands.</p>
+    <p class="src">from one of my own songs</p>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2>How it works<svg class="dood" viewBox="0 0 46 46" aria-hidden="true"><path d="M23 4 C24 16 28 20 42 23 C28 26 24 30 23 42 C22 30 18 26 4 23 C18 20 22 16 23 4Z"/></svg></h2>
+    <div class="steps">
+      <div><span class="n">1</span><h3>Tell me their story</h3><p>Fill in a short questionnaire about them: names, memories, inside jokes.</p></div>
+      <div><span class="n">2</span><h3>I write your song</h3><p>Your answers become the lyrics, in the mood and style you choose.</p></div>
+      <div><span class="n">3</span><h3>It lands in your inbox</h3><p>Within 14 days, ready to play, share or give as a gift.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="demos">
+  <div class="wrap">
+    <h2 class="sq">Hear my songs<svg viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 7 Q12 1 22 7 T42 7 T62 7 T82 7 T102 7 T122 7 T142 7 T162 7 T182 7 T198 6"/></svg></h2>
+    <div class="vids" id="vids"></div>
+    <p class="yt"><a class="btn alt" id="ytlink" href="#" target="_blank" rel="noopener">More songs on YouTube</a></p>
+  </div>
+</section>
+
+<section id="order">
+  <div class="wrap">
+    <div class="sheet">
+      <div id="formwrap">
+        <h2>Tell me about them</h2>
+        <p class="lead">The more you share, the more personal the song. There are no wrong answers.</p>
+        <form id="f" novalidate>
+          <input class="hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+          <div class="row">
+            <div><label for="yn">Your name</label><input id="yn" name="your_name" required autocomplete="name"></div>
+            <div><label for="em">Your email</label><input id="em" name="email" type="email" required autocomplete="email"></div>
+          </div>
+          <div class="row">
+            <div><label for="sn">Who is the song about?</label><input id="sn" name="song_about" required placeholder="Name or names"></div>
+            <div><label for="rel">Your relationship to them</label><input id="rel" name="relationship" placeholder="Wife, best friend, my parents…"></div>
+          </div>
+          <div class="row">
+            <div><label for="occ">What's the occasion?</label>
+              <select id="occ" name="occasion"><option>Wedding</option><option>Anniversary</option><option>Birthday</option><option>Retirement</option><option>New baby</option><option>Thank you / tribute</option><option>Just because</option><option>Other</option></select></div>
+            <div><label for="due">Date you need it by <small>Optional. Allow at least 14 days.</small></label><input id="due" name="needed_by" type="date"></div>
+          </div>
+          <label for="story">Their story <small>How you met, favourite memories, what you love most about them.</small></label>
+          <textarea id="story" name="story" required></textarea>
+          <label for="det">Personal details to include <small>Nicknames, places, pets, inside jokes, dates, favourite things.</small></label>
+          <textarea id="det" name="details"></textarea>
+          <div class="row">
+            <div><label for="mood">Mood</label>
+              <select id="mood" name="mood"><option>Romantic</option><option>Joyful and upbeat</option><option>Heartfelt and emotional</option><option>Fun and funny</option><option>Gentle and soothing</option></select></div>
+            <div><label for="sty">Music style <small>Pop, acoustic, folk, rock…</small></label><input id="sty" name="style"></div>
+          </div>
+          <label for="ex">Anything to avoid, or a song you'd like mine to feel like? <small>Optional</small></label>
+          <textarea id="ex" name="extra" style="min-height:70px"></textarea>
+          <label class="chk" for="agree"><input id="agree" name="agreed_to_terms" type="checkbox" required><span>I've read the <a href="#privacy" data-open>privacy note</a> and <a href="#terms" data-open>terms</a>.</span></label>
+          <p style="margin-top:22px"><button class="btn" type="submit">Send my story</button></p>
+          <p id="msg" role="status"></p>
+        </form>
+      </div>
+      <div id="pay">
+        <h2>Thank you, I've got your story.</h2>
+        <p>One last step: pay securely with PayPal and I'll start writing straight away.</p>
+        <div class="price">€150</div>
+        <p>One personalised song, delivered by email within 14 days.</p>
+        <p><a class="btn" id="paylink" href="#" target="_blank" rel="noopener">Pay €150 with PayPal</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">
+  <div class="legal" id="legal">
+    <details id="privacy"><summary>Privacy</summary><div class="txt">
+      <p><b>Who I am.</b> Nicky Stixx, songwriter, based in Mallorca, Spain.<span id="nifline"></span> Contact: <span class="mail">reply to any email from me</span>.</p>
+      <p><b>What I collect.</b> Only what you type into the questionnaire: your name and email, and the details you give me about the person the song is for.</p>
+      <p><b>Why.</b> To write your song, send it to you, and handle payment and my accounting records. I don't use it for marketing and I don't sell or share it.</p>
+      <p><b>Who handles it.</b> The questionnaire goes through Formspree, which emails it to me. Payment is made on PayPal, so I never see your card details. This page loads fonts from Google Fonts and videos from YouTube, which may receive your IP address when they load.</p>
+      <p><b>How long.</b> For as long as I need it to deliver your song and to keep records the law requires, then I delete it.</p>
+      <p><b>Your rights.</b> You can ask to see, correct or delete your information at any time by contacting me. If you're unhappy, you can complain to the Spanish data protection authority (AEPD). Please only share details about other people that you're comfortable sharing.</p>
+    </div></details>
+    <details id="terms"><summary>Terms</summary><div class="txt">
+      <p><b>What you get.</b> One original, personalised song written from your questionnaire, delivered as an audio file by email within 14 days of receiving both your story and your payment. The price is €150, paid through PayPal.</p>
+      <p><b>Made to order.</b> Because every song is written specially for you, I can't offer a refund once I've started writing. If you change your mind before I begin, tell me and I'll refund you in full.</p>
+      <p><b>If something's wrong.</b> If a name, date or fact in your song is incorrect, tell me and I'll fix it.</p>
+      <p><b>Using your song.</b> It's yours to enjoy and share with family and friends, and to play at your event. If you'd like to release or sell it, please ask me first. I'd love to share a short snippet as an example, and I'll always ask you before I do.</p>
+    </div></details>
+  </div>
+  <p style="margin-top:22px">© <span id="yr"></span> customsong.store · Songs written by Nicky Stixx</p>
+</div></footer>
+
+<script>
+/* ===== EDIT THESE ===== */
+const CONFIG = {
+  PAYPAL_URL:  "https://www.paypal.com/paypalme/NickyStixx1/150EUR", // your PayPal.me link
+  FORM_URL:    "https://formspree.io/f/mrpekkwj",             // from formspree.io (free)
+  YOUTUBE_URL: "https://www.youtube.com/@NickyStixxOriginal1",           // your channel
+  CONTACT_EMAIL: "stixxnicky@gmail.com",   // your public contact email, shown in the Privacy note
+  NIF: "",             // your autónomo NIF (Spanish law asks for it on a business site)
+  VIDEOS: [ // YouTube video IDs (the part after v= in the link). Leave id empty for a placeholder.
+    {id:"lD9kFWQ81Rs", title:"Dan and Lara", note:"A wedding song.",
+     lyric:"Oh we found each other in the strangest way,<br>a smile at check-in turned into today,<br>he's her man, she's his queen,<br>best story we've ever seen."},
+    {id:"8jh1X4IQdCE", title:"Barrie the Milkman", note:"A retirement song.",
+     lyric:"Barrie rose at half past three for 30 solid years,<br>white coat buttoned, crates all stacked,<br>no time for doubts or fears."},
+    {id:"lafMVSZveNw", title:"Pocket Full Of Sparks", note:"A song about ADHD, written with my daughter in mind.",
+     lyric:"She says wait, wait, wait, my mind runs ahead,<br>every little thing crowded in my head,<br>pocket full of sparks, hard to keep it all,<br>pocket full of sparks, still she stands up tall."}
+  ]
+};
+/* ====================== */
+
+document.getElementById('yr').textContent=new Date().getFullYear();
+if(CONFIG.CONTACT_EMAIL){const m=document.querySelector('.mail');m.textContent='';const a=document.createElement('a');a.href='mailto:'+CONFIG.CONTACT_EMAIL;a.textContent=CONFIG.CONTACT_EMAIL;m.appendChild(a)}
+if(CONFIG.NIF)document.getElementById('nifline').textContent=' Autónomo, NIF '+CONFIG.NIF+'.';
+function openLegal(){const d=document.getElementById(location.hash.slice(1));if(d&&d.tagName==='DETAILS'){d.open=true;d.scrollIntoView({behavior:'smooth'})}}
+addEventListener('hashchange',openLegal);openLegal();
+document.querySelectorAll('a[data-open]').forEach(a=>a.addEventListener('click',()=>setTimeout(openLegal,0)));
+document.getElementById('ytlink').href=CONFIG.YOUTUBE_URL;
+document.getElementById('paylink').href=CONFIG.PAYPAL_URL;
+document.getElementById('vids').innerHTML=CONFIG.VIDEOS.map(v=>`
+  <article class="vid"><div class="frame">${v.id?`<iframe src="https://www.youtube-nocookie.com/embed/${v.id}" title="${v.title}" loading="lazy" allow="encrypted-media;picture-in-picture" allowfullscreen></iframe>`:'Video coming soon'}</div>
+  <h3>${v.title}</h3><p>${v.note}</p><p class="lyric">${v.lyric}</p></article>`).join('');
+
+/* form */
+const f=document.getElementById('f'),msg=document.getElementById('msg');
+f.addEventListener('submit',async e=>{
+  e.preventDefault();msg.className='';msg.textContent='';
+  if(!f.checkValidity()||!f.elements.story.value.trim()){msg.className='err';msg.textContent='Please fill in your name, email, who the song is about, their story, and tick the box at the end.';f.reportValidity();return}
+  const btn=f.querySelector('button');btn.disabled=true;btn.textContent='Sending…';
+  try{
+    const r=await fetch(CONFIG.FORM_URL,{method:'POST',headers:{Accept:'application/json'},body:new FormData(f)});
+    if(!r.ok)throw 0;
+    document.getElementById('formwrap').style.display='none';
+    document.getElementById('pay').style.display='block';
+    document.getElementById('order').scrollIntoView({behavior:'smooth'});
+  }catch{
+    msg.className='err';msg.textContent='Your story could not be sent. Check your connection and try again.';
+    btn.disabled=false;btn.textContent='Send my story';
+  }
+});
+
+/* the one moving thing: a single ink line, drawn like a sound wave, then breathing */
+const c=document.getElementById('wave'),x=c.getContext('2d'),dpr=devicePixelRatio||1;
+const still=matchMedia('(prefers-reduced-motion:reduce)').matches;let t=0,reveal=still?1:0;
+function size(){c.width=c.offsetWidth*dpr;c.height=c.offsetHeight*dpr}
+size();addEventListener('resize',size);
+function draw(){
+  const w=c.width,h=c.height;x.clearRect(0,0,w,h);
+  x.beginPath();
+  const end=w*reveal;
+  for(let px=0;px<=end;px+=4){
+    const k=px/w,env=Math.sin(k*Math.PI)**1.2;
+    const y=h/2+(Math.sin(k*22+t)*.42+Math.sin(k*7-t*.6)*.3+Math.sin(k*51+t*1.7)*.12)*h*.42*env;
+    px?x.lineTo(px,y):x.moveTo(px,y);
+  }
+  x.strokeStyle='#17233f';x.lineWidth=2.5*dpr;x.lineJoin='round';x.stroke();
+  t+=.025;reveal=Math.min(1,reveal+.012);
+  if(!still)requestAnimationFrame(draw)
+}
+draw();
+</script>
+</body>
+</html>
